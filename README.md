@@ -1,5 +1,5 @@
 # Introduction-to-Artificial-Intelligence
-# Advanced Puzzle Solver: Project 1
+# Project 1: Advanced Puzzle Solver
 
 ## Overview
 The project was designed to devise an efficient method for solving the Eight Piece Puzzles, and its capability was further extended to tackle even larger puzzles. Through the course of this project, three algorithms were extensively tested and benchmarked:
@@ -24,3 +24,20 @@ Upon rigorous testing, it was deduced:
 
 ## Conclusion
 This project underscored the efficacy of A* algorithms in cracking intricate puzzles. In contrast, while the Uniform Cost Search might be suboptimal for this particular application, its potential in other domains cannot be discounted.
+
+# Project 2: Feature Selection with Nearest Neighbor
+
+## Overview
+This project delves into the realm of feature selection for datasets, emphasizing the importance of choosing relevant features to improve classification accuracy. Three distinct algorithms are employed: Forward Selection, Backward Elimination, and Custom Random Feature Combinations.
+
+## Highlights
+
+- **Feature Selection Algorithms**: We implemented the Forward Selection and Backward Elimination methods to iteratively select optimal feature sets. The aim was to determine the feature combinations that offer the highest classification accuracy.
+
+- **Custom Algorithm**: The project introduces a unique algorithm, "Random Feature Combinations," which generates random feature sets and employs Leave One Out Cross Validation (LOOCV) to evaluate their efficacy.
+
+- **Normalization Impact**: An investigation was conducted on the effect of data normalization on the performance of the aforementioned algorithms. This involved comparing results obtained using normalized data versus unnormalized data.
+
+- **Challenges**: Complexity in algorithm implementation, nuances of data preprocessing, and the potential pitfalls of overfitting were among the challenges faced. These served as significant learning points, emphasizing the balance required in feature selection and model validation.
+
+In conclusion, the project underscores the importance of feature selection in improving model performance and provides tools and techniques to navigate the complex landscape of high-dimensional data.
